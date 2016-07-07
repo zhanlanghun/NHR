@@ -12,6 +12,7 @@
 --version:1.0.0.0
 --informational-version:1.0.0
 --target-framework:.NETStandard,Version=v1.6
+--reference:C:\Users\chen\.nuget\packages\AutoMapper\5.0.0-beta-1\lib\netstandard1.1\AutoMapper.dll
 --reference:C:\Users\chen\.nuget\packages\Microsoft.CSharp\4.0.1\ref\netstandard1.0\Microsoft.CSharp.dll
 --reference:C:\Users\chen\.nuget\packages\Microsoft.EntityFrameworkCore\1.0.0\lib\netstandard1.3\Microsoft.EntityFrameworkCore.dll
 --reference:C:\Users\chen\.nuget\packages\Microsoft.EntityFrameworkCore.Relational\1.0.0\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Relational.dll
@@ -79,6 +80,7 @@
 --reference:C:\Users\chen\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\chen\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\chen\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
+--reference:E:\Project\NHR\Application\NHR.DTO\bin\Debug\netstandard1.6\NHR.DTO.dll
 --reference:E:\Project\NHR\Domain\NHR.Entity\bin\Debug\netstandard1.6\NHR.Entity.dll
 --reference:E:\Project\NHR\Domain\NHR.IRepository\bin\Debug\netstandard1.6\NHR.IRepository.dll
 --reference:E:\Project\NHR\Domain\NHR.Repository\bin\Debug\netstandard1.6\NHR.Repository.dll

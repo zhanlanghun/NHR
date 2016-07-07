@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v1.6/",
-    "signature": "448a8c1ced639ef815b02e666193d40138ee03aa"
+    "signature": "ff7aa3ae86ae8e10d11e3850f55520bced21953e"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,11 +10,24 @@
       "NHR.Service/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "1.6.0",
+          "NHR.DTO": "1.0.0",
           "NHR.IRepository": "1.0.0",
           "NHR.Repository": "1.0.0"
         },
         "runtime": {
           "NHR.Service.dll": {}
+        }
+      },
+      "AutoMapper/5.0.0-beta-1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1",
+          "NETStandard.Library": "1.6.0",
+          "System.Dynamic.Runtime": "4.0.11",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Linq.Queryable": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.1/AutoMapper.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -1226,6 +1239,16 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "NHR.DTO/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "5.0.0-beta-1",
+          "NETStandard.Library": "1.6.0",
+          "NHR.Entity": "1.0.0"
+        },
+        "runtime": {
+          "NHR.DTO.dll": {}
+        }
+      },
       "NHR.Entity/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "1.6.0",
@@ -1263,6 +1286,11 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/5.0.0-beta-1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vk7UYHjVWqwB4mmGUsrRiDyY5xGNDhpZkY92uA1w9aetlrgeZzK5TMK4TVRDZXYlSoERBNNDPOiJmZuBPn3kWQ=="
     },
     "Microsoft.CSharp/4.0.1": {
       "type": "package",
@@ -1743,6 +1771,11 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg=="
+    },
+    "NHR.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "NHR.Entity/1.0.0": {
       "type": "project",

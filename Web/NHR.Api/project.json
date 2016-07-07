@@ -19,7 +19,8 @@
     "NHR.IRepository": "1.0.0-*",
     "NHR.Repository": "1.0.0-*",
     "Autofac": "4.0.0-rc3-293",
-    "Autofac.Extensions.DependencyInjection": "4.0.0-rc3-280"
+    "Autofac.Extensions.DependencyInjection": "4.0.0-rc3-280",
+    "NHR.DTO": "1.0.0-*"
   },
 
   "tools": {

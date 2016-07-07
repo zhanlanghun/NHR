@@ -19,6 +19,6 @@ namespace NHR.Repository
             optionsBuilder.UseSqlServer("Server=.;Database=NHR;User ID=sa;Password=sa;pooling=true;max pool size=40000");
             base.OnConfiguring(optionsBuilder);
         }
-        public DbSet<User> Users { get; set; }
+        public DbSet<User> Users { get; set; } 
     }
 }

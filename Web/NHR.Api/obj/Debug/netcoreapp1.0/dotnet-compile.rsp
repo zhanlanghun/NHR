@@ -15,6 +15,7 @@
 --target-framework:.NETCoreApp,Version=v1.0
 --reference:C:\Users\chen\.nuget\packages\Autofac\4.0.0-rc3-293\lib\netstandard1.1\Autofac.dll
 --reference:C:\Users\chen\.nuget\packages\Autofac.Extensions.DependencyInjection\4.0.0-rc3-280\lib\netstandard1.1\Autofac.Extensions.DependencyInjection.dll
+--reference:C:\Users\chen\.nuget\packages\AutoMapper\5.0.0-beta-1\lib\netstandard1.1\AutoMapper.dll
 --reference:C:\Users\chen\.nuget\packages\Microsoft.ApplicationInsights\2.1.0\lib\dotnet5.4\Microsoft.ApplicationInsights.dll
 --reference:C:\Users\chen\.nuget\packages\Microsoft.ApplicationInsights.AspNetCore\1.0.0\lib\netstandard1.6\Microsoft.ApplicationInsights.AspNetCore.dll
 --reference:C:\Users\chen\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll
@@ -183,6 +184,7 @@
 --reference:C:\Users\chen\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\chen\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\chen\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
+--reference:E:\Project\NHR\Application\NHR.DTO\bin\Debug\netstandard1.6\NHR.DTO.dll
 --reference:E:\Project\NHR\Domain\NHR.Entity\bin\Debug\netstandard1.6\NHR.Entity.dll
 --reference:E:\Project\NHR\Domain\NHR.IRepository\bin\Debug\netstandard1.6\NHR.IRepository.dll
 --reference:E:\Project\NHR\Domain\NHR.Repository\bin\Debug\netstandard1.6\NHR.Repository.dll
@@ -190,4 +192,6 @@
 --resource:"E:\Project\NHR\Web\NHR.Api\obj\Debug\netcoreapp1.0\NHR.Apidotnet-compile.deps.json",NHR.Api.deps.json
 E:\Project\NHR\Web\NHR.Api\Program.cs
 E:\Project\NHR\Web\NHR.Api\Startup.cs
+E:\Project\NHR\Web\NHR.Api\Controllers\BaseController.cs
+E:\Project\NHR\Web\NHR.Api\Controllers\UserController.cs
 E:\Project\NHR\Web\NHR.Api\Controllers\ValuesController.cs

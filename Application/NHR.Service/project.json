@@ -3,6 +3,7 @@
 
   "dependencies": {
     "NETStandard.Library": "1.6.0",
+    "NHR.DTO": "1.0.0-*",
     "NHR.IRepository": "1.0.0-*",
     "NHR.Repository": "1.0.0-*"
   },

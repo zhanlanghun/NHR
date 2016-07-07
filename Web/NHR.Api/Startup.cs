@@ -42,7 +42,7 @@ namespace NHR.Api
         {
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
-
+            
             services.AddMvc();
            return Ioc(services);
           
@@ -61,6 +61,12 @@ namespace NHR.Api
 
             app.UseMvc();
             
+            //app.UseMvc(routes => {
+            //    routes.MapRoute(
+            //       name: "default",
+            //       template: "{controller=Home}/{action=Index}/{id?}");
+            //});
+
         }
         private IServiceProvider Ioc(IServiceCollection services)
         {
